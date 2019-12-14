@@ -1,28 +1,53 @@
+* {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+body {
+  background-image: url('https://pmcvariety.files.wordpress.com/2015/03/smurfs-movie-release-date.jpg?w=721');
+  height: 100vh;
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
+
+.title {
+  color: blue;
+  background-color: rgba(211, 211, 211, 0.719);
   height: 80px;
+  font-size: 2rem;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45%;
+  height: 20px;
+  margin-left: 35%;
+
 }
 
-.App-title {
-  font-size: 1.5em;
+.form h2 {
+  color: rgb(76, 78, 218);
+  font-size: 1.6rem;
+  background-color: ivory;
+  border-radius: 8px;
+  width: 400px;
+  margin-left: 60%;
 }
 
-.App-intro {
-  font-size: large;
+.form input {
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.form button {
+  width: 200px;
+  padding: 10px;
+  border-radius: 12px;
 }
